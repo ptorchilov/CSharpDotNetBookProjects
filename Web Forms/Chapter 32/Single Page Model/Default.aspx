@@ -23,13 +23,15 @@
 </head>
 <body>
     <form id="formGridView" runat="server">
-        <asp:Label ID="LabelTop" runat="server" 
-            Text="Click on the Button to Fill the Grid"></asp:Label>
-        <br />
-        <br />
-        <asp:GridView ID="GridViewTable" runat="server"></asp:GridView>
-        <br />
-        <asp:Button ID="ButtonFillGrid" runat="server" Text="Fill Grid" OnClick="ButtonFillDataClick" />
+        <div>
+            <asp:Label ID="LabelTop" runat="server" 
+                Text="Click on the Button to Fill the Grid"></asp:Label>
+            <br />
+            <br />
+            <asp:GridView ID="GridViewTable" runat="server"></asp:GridView>
+            <br />
+            <asp:Button ID="ButtonFillGrid" runat="server" Text="Fill Grid" OnClick="ButtonFillDataClick" />
+        </div>
     </form>
 </body>
 </html>
